@@ -3,11 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome RevoU</title>
+    <title>Test RevoU Bootcamp</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Ini pertama kali ku memakai html</p>
-    <h2>Namaku Amellia</h2>
+    <p style="color:red;">Hello World!</p>
+    <hr/r>
+    <p>Halo, nama saya <br/> Amellia</p>
+    </p> 
+
+    <!-- Ini komentar untuk baris ini -->
+    <h1>Ini heading 1</h1>
+    <h2>Ini heading 2</h2>
+    <h3>Ini heading 3</h3>
+    <h4>Ini heading 4</h4>
+    <h5>Ini heading 5</h5>
+    <h6>Ini heading 6</h6>
+    <p>Teks ini ada 
+        <b>bold</b> nya, 
+        <i>italic</i> nya,
+        <sub>bawah</sub>
+        <sup>atas</sup>
+    </p>
+
+    <h1>Bullet Point</h1>
+    <ul type="circle">
+        <!-- bullet list -->
+        <!-- bisa none (ga ada tanda depan) circle, square -->
+    <li>pisang <p>pisang adalah buah buahan</p></l1>
+    <li>apel</l2>
+    <li>mangga</l3>
+    <ul/>
+
+    <h1>Urutan Angka</h1>
+    <p>Cara menjalankan html</p>
+    <!-- ordered list -->
+    <ol type="I">
+        <li>Buka vscode</li>
+        <li>Open project yg akan dikerjakan</li>
+        <li>Buka file index html</li>
+        <li>Isi file index html</li>
+        <li>Jalankan dengan live preview</li>
+    </ol>
+    <h1>Tabel</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <th>head baru</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfred</td>
+                <td>abcde@abcde</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>Budi@budi</td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>7537@7617</td>
+                <td>USA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Gambar</h1>
+    <!-- Posisinya sama dengan folder -->
+    <img src="/image/test.jpg"
+    width="100px" 
+    alt="gambar beruang"/>
+    
+    <!-- image url luar -->
+    <img src="https://id.pinterest.com/pin/3588874693628901/"
+    alt="beruang"/>
+    
+    <h1>Link</h1>
+    <p>Link ini akan peri ke <a
+        href="https://growagarden.fandom.com/wiki/Cooking_Event"
+        target="_blank">gag</a>
+    </p>
+    <a href="./second.html">second html</a>
+    <a href="#lorem">go to lorem</a>
+    
+    <h1>Form Contact Us</h1>
+    <form>
+        <label>Nama</label>
+        <Input type="text"
+        placeholder="Isi nama anda"/>
+        <br/>
+            <!-- kalo mau angka doang bisa ganti number, password -->
+        <label>Umur</label>
+        <input type="number"
+        min="0"maks="120"
+        placeholder="Isi umur anda"/>
+        </br>
+        <label>Password</label>
+        <input type="password"/>
+        </br>
+        <label>Jenis kelamin</label>
+        <input type="radio"
+        value="male"
+        name="jenis kelamin">laki-laki
+        <input type="radio"
+        value="female"
+        name="jenis kelamin">perempuan
+        </br>
+        <label>Makanan favorit</label>
+        <select>
+            <option value="nasi-goreng">nasi goreng</option>
+            <option value="soto">soto</option>
+            <option value="bakso">bakso</option>
+            <option value="mie-ayam">mie ayam</option>
+        </select>
+        </br>
+        <label>Comment</label>
+        </br>
+        <textarea rows="5"
+        cols="30"
+        placeholder="Tulis komentar disini..."
+        ></textarea> 
+        </br>
+        <input type="checkbox"/
+        >saya setuju dengan syarat dan ketentuan
+        <!-- bisa make input atau button -->
+        <input type="submit"
+        value="kirim"/>
+        <button 
+        type="submit">send
+    </button>
+    </form>
+
+    <p id="lorem"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
 </body>
 </html>
